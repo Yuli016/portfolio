@@ -9,11 +9,17 @@ p {
   font-size: 1.5vw;
 }
 
-h1, h2, h3 {
+h1 {
   font-size: 4vw;
   color: #4B0082;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+}
+
+h2, h3 {
+  font-size: 3vw;
+  color: #4B0082;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .flex-container {
@@ -54,7 +60,7 @@ img {
 }
 
 #border {
-  border: solid #4B0082 8px;
+  border: solid #ffd700 8px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -64,4 +70,21 @@ img {
   .flex-container {
     flex-direction: column;
   }
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+  max-height: 1000px;
+  border: solid 3px #ffd700;
+}
+
+a#link {
+  color: black;
+}
+
+a#link:hover {
+  color: #ffd700;
 }
