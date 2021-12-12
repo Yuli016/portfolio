@@ -1,3 +1,13 @@
-html {
-  background-image: url(./img/pattern.svg);
+body {
+  background-image: url("https://yuli016.github.io/portfolio/img/pattern.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: auto;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+  z-index: -100;
 }
