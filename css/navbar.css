@@ -20,6 +20,13 @@ ul#menu a:hover {
   color: #ffd700;
 }
 
+hr {
+  height: 4px;
+  border-width: 0;
+  color: #ffd700;
+  background-color: #ffd700;
+}
+
 /*======================================================
                           Navbar
   ======================================================*/
