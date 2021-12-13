@@ -1,5 +1,5 @@
 .center-div {
-  padding: 3vh 8vw;
+  padding: 3vh 4vw;
 }
 
 p {
@@ -37,21 +37,21 @@ h2, h3 {
   flex: 35%;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (max-width: 2000px) {
   .center-div {
-    padding: 2vh 7vw;
+    padding: 2vh 3vw;
   }
   p {
-    font-size: 1.9vw;
+    font-size: 3.5vw;
   }
 }
 
 @media screen and (min-width: 601px) {
   .center-div {
-  padding: 2vh 6vw;
+  padding: 2vh 3vw;
   }
   p {
-    font-size: 1.4vw;
+    font-size: 2vw;
   }
 }
 
