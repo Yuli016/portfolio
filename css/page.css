@@ -6,6 +6,7 @@ h1 {
   color: #4B0082;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  text-decoration: underline 5px #ffd700;
 }
 
 h2 {
